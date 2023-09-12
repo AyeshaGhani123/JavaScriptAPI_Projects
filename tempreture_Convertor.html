@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tempreture_Convertor.css">
+    <script src="tempreture_Convertor.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempreture Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Tempreture Converter</h1>
+        <div class="tempreture-container">
+            <label for="celsius" class="label">Celsius :</label>
+            <input onchange="computeTemp(event)" type="number" name="celsius" id="celsius" placeholder="Enter Tempreture" class="input">
+        </div>
+        <div class="tempreture-container">
+        <label for="fahrenheit" class="label">Fahrenheit :</label>
+            <input onchange="computeTemp(event)" type="number" name="fahrenheit" id="fahrenheit" placeholder="Enter Tempreture" class="input">
+        </div>  
+        <div class="tempreture-container">
+            <label for="kalvin" class="label">Kalvin :</label>
+            <input onchange="computeTemp(event)" type="number" name="kalvin" id="kalvin" placeholder="Enter Tempreture" class="input">
+    </div>
+    </div>
+ 
+</body>
+</html>
+<!-- we use onchange event listner to call the function from the html -->
